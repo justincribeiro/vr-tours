@@ -44,10 +44,10 @@ body {
       @media (max-width: 768px) {
           left: 50%;
           width: 100%;
+          text-align: center;
       }
       @media (max-width: 430px) {
           width: 100%;
-          text-align: center;
       }
   }
 
@@ -67,23 +67,28 @@ body {
       //text-transform: uppercase;
       @media (min-width: 1366px) {
         font-size: 200px;
-    }
+      }
       @media (min-width: 992px) {
         font-size: 80px;
       }
       @media (max-width: 768px) {
         font-size: 60px;
+        display: inline-block;
+      }
+      @media (max-width: 480px) {
+        font-size: 30px;
       }
       i {
-          color: $blue;
-          text-transform: uppercase;
+        color: $blue;
+        text-transform: uppercase;
       }
-  }
+    }
   h2 {
       font-size: 24px;
       font-weight: 300;
       text-align: center;
       text-transform: uppercase;
+      margin-bottom: 25px;
       @media (min-width: 1366px) {
           font-size: 30px;
       }

@@ -118,13 +118,13 @@ body .center-box {
   body .center-box {
     left: 50%;
     width: 100%;
+    text-align: center;
   }
 }
 
 @media (max-width: 430px) {
   body .center-box {
     width: 100%;
-    text-align: center;
   }
 }
 
@@ -159,6 +159,13 @@ body h1 {
 @media (max-width: 768px) {
   body h1 {
     font-size: 60px;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 480px) {
+  body h1 {
+    font-size: 30px;
   }
 }
 
@@ -172,6 +179,7 @@ body h2 {
   font-weight: 300;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 25px;
 }
 
 @media (min-width: 1366px) {
